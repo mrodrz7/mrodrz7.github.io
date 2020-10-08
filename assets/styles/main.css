@@ -5,3 +5,7 @@ body {
 li {
     display: inline;
 }
+
+header, nav {
+    text-align: center;
+}
