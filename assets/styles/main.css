@@ -16,3 +16,8 @@ header, nav {
 .project-img, li {
     display: inline;
 }
+
+#construction {
+    font-weight: bolder;
+    color: red;
+}
