@@ -8,7 +8,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Oswald;
+    font-weight: bolder;
     font-size: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
 }
 
 header, nav {
@@ -24,10 +36,17 @@ li {
 ul {
     background-color: dimgrey;
     list-style-type: none;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 14px;
+    padding-bottom: 15px;
 }
 
+.contact-me h3 {
+    background-color: dimgrey;
+}
+
+.contact-me ul {
+    padding-bottom: 40px;
+}
 
 #construction {
     font-weight: bolder;
