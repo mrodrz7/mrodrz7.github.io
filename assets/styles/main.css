@@ -48,25 +48,17 @@ ul {
     padding-bottom: 40px;
 }
 
-.img {
-    margin: 5px;
-    border: 1px solid whitesmoke;
-    float: left;
-    width: 180px;    
-}
-
-.img:hover {
-    border: 1px solid grey;
-}
-
-.img img {
-    width: 100%;
-    height: auto;
-}
-
-.img .desc {
-    padding: 15px;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
     text-align: center;
+}
+
+.grid-container img {
+    border: solid 2px black;
+    height: 450px;
+    width: 700px;
 }
 
 #construction {
