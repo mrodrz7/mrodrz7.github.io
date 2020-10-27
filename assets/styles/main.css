@@ -91,6 +91,12 @@ ul {
     background: #fff;
 }
 
+.quote {
+    font-size: large;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .slides {
     width: 500%;
     height: 500%;
