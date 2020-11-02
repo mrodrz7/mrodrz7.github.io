@@ -115,8 +115,13 @@ ul {
 
 .slidershow {
     border: solid 3px black;
-    width: 700px;
-    height: 400px;
+    width: 800px;
+    height: 475px;
+    overflow: hidden;
+}
+.slide img {
+    width: 800px;
+    height: 475px;
     overflow: hidden;
 }
 
@@ -130,6 +135,26 @@ ul {
 
 #r3:checked ~ .s1 {
     margin-left: -40%
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#r5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+#r6:checked ~ .s1 {
+    margin-left: -100%;
+}
+
+#r7:checked ~ .s1 {
+    margin-left: -120%;
+}
+
+#r8:checked ~ .s1 {
+    margin-left: -140%;
 }
 
 input[name="r"]{
