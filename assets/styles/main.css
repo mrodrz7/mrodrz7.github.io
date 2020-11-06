@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 
@@ -18,7 +18,7 @@ footer {
     width: 100%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
 }
 
@@ -44,16 +44,19 @@ ul {
 }
 .contact-me h3 {
     background-color: dimgrey;
+    padding-left: 15px;
 }
 
 .contact-me ul {
-    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 10px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 70px;
+    padding-top: 40px;
     text-align: center;
 }
 
