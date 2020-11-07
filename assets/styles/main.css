@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 
 body {
@@ -39,9 +39,17 @@ ul {
     padding-bottom: 15px;
 }
 
-.aboutme {
-    margin-bottom: 250px;
+.aboutme img {
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
 }
+
+.aboutme p {
+    overflow: auto;
+    padding: 0px 15px;
+}
+
 .contact-me h3 {
     background-color: dimgrey;
     padding-left: 15px;
@@ -54,6 +62,7 @@ ul {
 }
 
 .grid-container {
+    float: left;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 40px;
