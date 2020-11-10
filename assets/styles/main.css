@@ -75,6 +75,21 @@ ul {
     width: 400px;
 }
 
+.grid-container .grid-child .desc {
+    background-color: dimgrey;
+    margin: 0px 175px 10px 175px;
+    border: 3px solid black;
+    border-radius: 45px;
+}
+
+.grid-container .grid-child .sub-desc {
+    background-color: dimgrey;
+    margin: 3px;
+    border: 3px solid black;
+    border-radius: 45px;
+
+}
+
 .middle {
     position: relative;
     top: 50%;
